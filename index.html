@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=PT+Serif&family=Roboto:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-light sticky-top bg-white shadow justify-content-start p-4 mb-2">
+        <div class="container align-items-center px-5 ">
+            <div class="">
+                <ul class="nav d-none d-sm-flex d-md-flex">
+                    <li class="nav-item ">
+                      <a class="nav-link text-dark " aria-current="page" href="#"><i class="bi bi-facebook"></i></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-dark" href="#"><i class="bi bi-instagram"></i></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-dark" href="#"><i class="bi bi-twitter"></i></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-dark"><i class="bi bi-linkedin"></i></a>
+                    </li>
+                  </ul>
+            </div>
+            <div id="brand" class="col-lg-2 col-md-2 col-sm-2 col-8">
+                <a class="navbar-brand " href="#"><img src="imgs/download.svg" alt="" class="img-fluid"></a>
+            </div>
+            <div>
+                <button class="navbar-toggler border-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <button type="button" class="btn btn-light"><i class="bi bi-search"></i></button>   
+            </div>    
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">404 Page</a>
+                </li>
+              </li>
+                <li class="nav-item text-center mt-3 mb-3">
+                  <p class="fw-bolder">instagram</p> 
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-6 mb-2 pe-0">
+                        <div class="content">
+                          <div class="content-overlay mb-0 pb-0"></div><img  class="img-fluid" alt="Responsive image" src="imgs/instgram1.jpg" style="object-fit: cover;">
+                          <div class="content-details fadeIn-bottom">
+                            <p class="content-text"><i class="bi bi-heart-fill"><span class="p-1">1</span></i> <i class="bi bi-chat"><span class="p-1">0</span></i> </p>
+                          </div>          
+                        </div>
+                      </div>
+                      <div class="col-6 mb-2 pe-0 ">
+                        <div class="content">
+                          <div class="content-overlay mb-0 pb-0"></div>
+                          <img class="img-fluid" alt="Responsive image" src="imgs/instgram2.jpg" alt="" style="object-fit: cover;">
+                          <div class="content-details fadeIn-bottom">
+                            <p class="content-text"><i class="bi bi-heart-fill"><span class="p-1">1</span></i> <i class="bi bi-chat"><span class="p-1">0</span></i> </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 pe-0">
+                        <div class="content">
+                          <div class="content-overlay mb-0 pb-0"></div>
+                          <img class="img-fluid" alt="Responsive image" src="imgs/instgram3.jpg" alt="" style="object-fit: cover;">
+                          <div class="content-details fadeIn-bottom">
+                            <p class="content-text"><i class="bi bi-heart-fill"><span class="p-1">1</span></i> <i class="bi bi-chat"><span class="p-1">0</span></i> </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 pe-0">
+                        <div class="content">
+                          <div class="content-overlay mb-0 pb-0"></div>
+                          <img class="img-fluid" alt="Responsive image" src="imgs/instgram4.jpg" alt="" style="object-fit: cover;">
+                          <div class="content-details fadeIn-bottom">
+                            <p class="content-text"><i class="bi bi-heart-fill"><span class="p-1">1</span></i> <i class="bi bi-chat"><span class="p-1">0</span></i> </p>
+                          </div>          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item text-center mt-3 mb-3">
+                  <p class="fw-bolder">Follow Us</p>                
+                  <a href=" #"class="text-decoration-none text-black p-2"><i class="bi bi-facebook"></i></a>
+                  <a href=" #"class="text-decoration-none text-black p-2"><i class="bi bi-instagram"></i></a>
+                  <a href=" #"class="text-decoration-none text-black p-2"><i class="bi bi-twitter"></i></a>
+                  <a href=" #"class="text-decoration-none text-black p-2"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+    </nav>
+      <!----slider------>
+      <section>
+          <div class="container mt-2 px-5">
+              <div class="row">                  
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="imgs/preview (1).jpg" class="d-block w-100" alt="...">
+                        <div class="container p-5">
+                            <div class="row mt-1">
+                                <div class="col text-center">
+                                    <h2 id="slTxt"class=" text-center " style="font-size:4vw;">
+                                        <a href="#" class="text-decoration-none text-black">
+                                            Beauty itself is but the sensible image of the Infinite
+                                        </a>
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="row mt-1 ">
+                                <div class="col">
+                                    <p class="text-center text-muted" >An Essay on Typography by Eric Gill takes the reader back to the year 1930. The year when a conflict between two worlds came to its term. The machines of the industrial world finally took over the handicrafts.</p>
+                                </div>
+                            </div>
+                            <div class="row text-center mt-1">
+                                <div class="col">
+                                    <button id="Sbtn" type="button" class="btn btn-primary text-white  border-0 px-4 py-2 ">READ MORE</button>
+                                </div>                           
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="imgs/preview.png" class="d-block w-100" alt="...">
+                        <div class="container p-5">
+                            <div class="row mt-1">
+                                <div class="col text-center">
+                                    <h2 id="slTxt"class=" text-center " style="font-size:4vw;">
+                                        <a href="#" class="text-decoration-none text-black">
+                                            Beauty itself is but the sensible image of the Infinite
+                                        </a>
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="row mt-1 ">
+                                <div class="col">
+                                    <p class="text-center text-muted" >An Essay on Typography by Eric Gill takes the reader back to the year 1930. The year when a conflict between two worlds came to its term. The machines of the industrial world finally took over the handicrafts.</p>
+                                </div>
+                            </div>
+                            <div class="row text-center mt-1">
+                                <div class="col">
+                                    <button id="Sbtn" type="button" class="btn btn-primary text-white  border-0 p-2 ">READ MORE</button>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="imgs/preview3.png" class="d-block w-100" alt="...">
+                        <div class="container p-5">
+                            <div class="row mt-1">
+                                <div class="col text-center">
+                                    <h2 id="slTxt"class=" text-center " style="font-size:4vw;">
+                                        <a href="#" class="text-decoration-none text-black">
+                                            Beauty itself is but the sensible image of the Infinite
+                                        </a>
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="row mt-1 ">
+                                <div class="col">
+                                    <p class="text-center text-muted" >An Essay on Typography by Eric Gill takes the reader back to the year 1930. The year when a conflict between two worlds came to its term. The machines of the industrial world finally took over the handicrafts.</p>
+                                </div>
+                            </div>
+                            <div class="row text-center mt-1">
+                                <div class="col">
+                                    <button id="Sbtn" type="button" class="btn btn-primary text-white  border-0 p-2 ">READ MORE</button>
+                                </div>                            
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" class=" bg-black" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" class=" bg-black" aria-label="Slide 3"></button>
+                      </div>
+                  </div>
+              </div>
+          </div>    
+      </section>
+      <section>
+          <div class="container p-5">
+            <div class="row">
+                <div class="col-md-6">
+                  <div class="card mb-4">
+                      <div class="image">
+                          <img src="imgs/preview4.webp" class="card-img-top cimg" alt="...">
+                      </div>
+                      <div class="card-body p-5">
+                        <h5 class="card-title mb-3 text-center lead " style="font-size:3vw;">What’s in your makeup drawer</h5>
+                        <p class="card-text mb-3 text-center text-muted">Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also…</p>
+                        <div class="text-center">
+                          <a href="#" class=" cbtn btn text-center">READ MORE</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="card mb-4">
+                    <div class="image">
+                      <img src="imgs/preview (1).jpg" class="card-img-top cimg" alt="...">                      
+                    </div>
+                    <div class="card-body p-5">
+                      <h5 class="card-title mb-3 text-center lead lh-base" style="font-size:3vw;"><p class="">Beauty itself is but the sensible image of the Infinite</p></h5>
+                      <p class="card-text mb-3 text-center text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pharetra sapien nibh, sed tempor…</p>
+                      <div class="text-center">
+                        <a href="#" class=" cbtn btn text-center">READ MORE</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mb-4">
+                    <div class="image">
+                        <img src="imgs/preview.png" class="card-img-top cimg" alt="...">
+                    </div>
+                    <div class="card-body p-5">
+                      <h5 class="card-title mb-3 text-center lead lh-base" style="font-size:3vw;">I have often said that the lure of flying is the lure of beauty</h5>
+                      <p class="card-text mb-3 text-center text-muted">Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also…</p>
+                      <div class="text-center">
+                        <a href="#" class=" cbtn btn text-center">READ MORE</a>
+                      </div>
+                    </div>
+                  </div>
+                <div class="card mb-4">
+                  <div class="image">
+                      <img src="imgs/preview7.webp" class="card-img-top cimg" alt="...">
+                  </div>
+                  <div class="card-body p-5">
+                    <h5 class="card-title mb-3 text-center lead lh-base" style="font-size:3vw;">It's a good thing that beauty is only skin deep</h5>
+                    <p class="card-text mb-3 text-center text-muted">Given the discourse around this issue, it can be easy to either overestimate the scope of this…</p>
+                    <div class="text-center">
+                      <a href="#" class=" cbtn btn text-center">READ MORE</a>
+                    </div>
+                  </div>
+              </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="card mb-4">
+                    <div class="image">
+                      <img src="imgs/preview5.webp" class="card-img-top cimg" alt="...">
+                    </div>
+                    <div class="card-body p-5">
+                      <div class="card-title mb-3 text-center lead lh-base" style="font-size:3vw;">I think permitting the game to become too physical takes away a little bit of the beauty</div>
+                      <p class="card-text mb-3 text-center text-muted">An Essay on Typography by Eric Gill takes the reader back to the year 1930. The year when a conflict…</p>
+                      <div class="text-center">
+                        <a href="#" class=" cbtn btn text-center">READ MORE</a>
+                      </div>                      
+                    </div>
+                  </div>
+                  <div class="card mb-4">
+                    <div class="image">
+                      <img src="imgs/preview6webp.webp" class="card-img-top cimg" alt="...">
+                    </div>
+                    <div class="card-body p-5">
+                      <h5 class="card-title mb-3 text-center lh-base" style="font-size:3vw;">Anyone who keeps the ability to see beauty never grows old</h5>
+                      <p class="card-text mb-3 text-center text-muted">With supporting text below as a natural lead-in to additional content.</p>
+                      <div class="text-center">
+                        <a href="#" class="  btn text-center cbtn">READ MORE</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mb-4">
+                    <div class="image">
+                        <img src="imgs/preview8.webp" class="card-img-top cimg" alt="...">
+                    </div>
+                    <div class="card-body p-5">
+                      <h5 class="card-title mb-3 text-center lead lh-base " style="font-size:3vw;">What the imagination seizes as beauty must be truth</h5>
+                      <p class="card-text mb-3 text-center text-muted">An Essay on Typography by Eric Gill takes the reader back to the year 1930. The year when a conflict…</p>
+                      <div class="text-center">
+                        <a href="#" class=" cbtn btn text-center">READ MORE</a>
+                      </div>
+                    </div>
+                  </div>
+                <div class="card mb-4">
+                  <div class="image">
+                      <img src="imgs/preview9.webp" class="card-img-top cimg" alt="...">
+                  </div>
+                  <div class="card-body p-5">
+                    <h5 class="card-title mb-3 text-center lead lh-base" style="font-size:3vw;">Your favorite skincare products</h5>
+                    <p class="card-text mb-3 text-center text-muted">Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also…</p>
+                    <div class="text-center">
+                      <a href="#" class=" cbtn btn text-center">READ MORE</a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            </div>
+            <div class="row">
+              <div class="col text-center mt-5">
+                <button id="Sbtcards" type="button" class="btn  text-white  border-0 px-4 py-2">LOAD MORE</button>
+              </div>
+            </div>
+          </div>
+      </section>
+      <!--instgram-->
+      <section>
+        <div class="container mt-2 p-5 ">
+          <div class="row mb-4">
+            <div class="col text-center">
+              <i class="bi bi-instagram"></i>
+              <p class="d-inline">Me On Instagram</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class=" col-4 col-sm-3 px-1">
+              <div class="content">
+                <div class="content-overlay mb-0 pb-0"></div><img  class="img-fluid" alt="Responsive image" src="imgs/instgram1.jpg" style="object-fit: cover;">
+                <div class="content-details fadeIn-bottom">
+                  <p class="content-text"><i class="bi bi-heart-fill"><span class="p-1">1</span></i> <i class="bi bi-chat"><span class="p-1">0</span></i> </p>
+                </div>
+              </div>
+            </div>
+            <div class=" col-4 col-sm-3 px-1">
+              <div class="content">
+                <div class="content-overlay mb-0 pb-0"></div>
+                <img class="img-fluid" alt="Responsive image" src="imgs/instgram2.jpg" alt="" style="object-fit: cover;">
+                <div class="content-details fadeIn-bottom">
+                  <p class="content-text"><i class="bi bi-heart-fill"><span class="p-1">1</span></i> <i class="bi bi-chat"><span class="p-1">0</span></i> </p>
+                </div>
+              </div>
+            </div>
+            <div class=" col-4 col-sm-3 px-1">
+              <div class="content">
+                <div class="content-overlay mb-0 pb-0"></div>
+                <img class="img-fluid" alt="Responsive image" src="imgs/instgram3.jpg" alt="" style="object-fit: cover;">
+                <div class="content-details fadeIn-bottom">
+                  <p class="content-text"><i class="bi bi-heart-fill"><span class="p-1">1</span></i> <i class="bi bi-chat"><span class="p-1">0</span></i> </p>
+                </div>
+              </div>
+            </div>
+            <div class=" d-none d-sm-flex col-sm-3 px-1">
+              <div class="content">
+                <div class="content-overlay mb-0 pb-0"></div>
+                <img class="img-fluid" alt="Responsive image" src="imgs/instgram4.jpg" alt="" style="object-fit: cover;">
+                <div class="content-details fadeIn-bottom">
+                  <p class="content-text"><i class="bi bi-heart-fill"><span class="p-1">1</span></i> <i class="bi bi-chat"><span class="p-1">0</span></i> </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--form-->
+      <section>
+        <!--
+          <form class="row g-3 justify-content-between align-content-center">
+            <div class="col-sm-3">
+              <p class=" fst-italic fw-bold" style="font-size:3vh;">
+                Subscribe to our newsletter and stay updated.
+              </p>
+            </div>
+            <div class="col-sm-3 pe-0">
+              <label for="staticEmail2" class="visually-hidden">Email</label>
+              <input type="email" readonly class="form-control bg-white p-3" id="staticEmail2" placeholder="Write your email here" value="">
+            </div>
+  
+            <div class="col-sm-3 ps-0 ">
+              <button type="submit" class="btn bg-black text-white p-3">Subscribe</button>
+            </div>
+          </form>
+        -->
+        <!--
+          <div class="container p-5"> 
+            <form action="" class="row g-3">
+              <div class="col-6">
+                <p class=" fst-italic fw-bold " style="font-size:2vh;">
+                  Subscribe to our newsletter and stay updated.
+                </p>
+              </div>
+              <div class="col-6 justify-content-end">
+                <div class="row p">
+                  <div class="col-10 pe-0">
+                    <label for="staticEmail2" class="visually-hidden">Email</label>
+                    <input type="email" readonly class="form-control bg-white p-3" id="staticEmail2" placeholder="Write your email here" value="">
+                  </div>
+                  <div class="col-2 ps-0">
+                    <button type="submit" class="btn bg-black text-white p-3 d-inline fw-bold">Subscribe</button>  
+                  </div>
+                </div>
+              </div>
+            </form> 
+          </div>
+        -->
+      </section>
+      <footer>
+        <div class="container mt-5">
+          <div class="row m-2">
+            <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item" style="border: none"><img src="imgs/download.svg" alt="" class="img-fluid"></li>
+                <li class="list-group-item" style="border: none">23 King Street, 5th Avenue, New York</li>
+                <li class="list-group-item" style="border: none">+1-2345-6789-9</li>
+                <li class="list-group-item" style="border: none">Copyright&copy;<a href=" #"class="text-decoration-none text-black">RedQ, Inc.</a></li>
+                <li class="list-group-item" style="border: none"></li>
+              </ul>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6  col-lg-3 ">
+              <ul class="list-group- list-group-flush ps-0">
+                <li class="list-group-item " style="border: none"><a href=" #"class="text-decoration-none text-black fw-bolder">Quick Links</a></li>
+                <li class="list-group-item" style="border: none"><a href=" #"class="text-decoration-none text-black">About</a></li>
+                <li class="list-group-item" style="border: none"><a href=" #"class="text-decoration-none text-black">Contact</a></li>
+                <li class="list-group-item" style="border: none"><a href=" #"class="text-decoration-none text-black">404 Page</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6  col-lg-3">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item" style="border: none"><a href=" #"class="text-decoration-none text-black fw-bolder">Category</a></li>
+                <li class="list-group-item" style="border: none"><a href=" #"class="text-decoration-none text-black">Beauty</a></li>
+                <li class="list-group-item" style="border: none"><a href=" #"class="text-decoration-none text-black">Lifestyle</a></li>
+                <li class="list-group-item" style="border: none"><a href=" #"class="text-decoration-none text-black">Products</a></li>
+                <li class="list-group-item" style="border: none"><a href=" #"class="text-decoration-none text-black">Tips</a></li>
+              </ul>
+            </div>
+            <div class=" col-6 col-sm-6 col-md-6  col-lg-3">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item fw-bolder" style="border: none">Follow Us</li>
+                <li class="list-group-item" style="border: none">
+                  <a href=" #"class="text-decoration-none text-black p-2"><i class="bi bi-facebook"></i></a>
+                  <a href=" #"class="text-decoration-none text-black p-2"><i class="bi bi-instagram"></i></a>
+                  <a href=" #"class="text-decoration-none text-black p-2"><i class="bi bi-twitter"></i></a>
+                  <a href=" #"class="text-decoration-none text-black p-2"><i class="bi bi-linkedin"></i></a>               
+                </li>
+              </ul>
+            </div>
+          </div>
+          <a href="#" class="position-fixed bottom-0 end-0 p-3">
+            <i id="arrow"class="bi bi-arrow-up-circle h2 "></i>
+          </a>
+        </div>
+      </footer>     
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
